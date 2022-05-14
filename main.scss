@@ -1,0 +1,32 @@
+@import "var";
+
+/* tags */
+body {
+  /* background-color: rebeccapurple; */
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.main-content {
+  min-height: 100vh;
+  background-color: $clr-dark;
+  .nav {
+    flex-shrink: 0;
+    // border: 1px solid red;
+    background-color: $clr-primary;
+    // flex-basis: 35%;
+    min-height: 100vh;
+  }
+  button {
+    text-align: right;
+    background-color: transparent !important;
+    border-bottom: 1px solid $clr-dark!important;
+    border-radius: 0!important;
+  }
+}
+
+/* classes */

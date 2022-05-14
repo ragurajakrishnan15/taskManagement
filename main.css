@@ -1,0 +1,28 @@
+/* tags */
+body {
+  /* background-color: rebeccapurple; */
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.main-content {
+  min-height: 100vh;
+  background-color: hsl(0deg, 0%, 13%);
+}
+.main-content .nav {
+  flex-shrink: 0;
+  background-color: rgb(173, 217, 241);
+  min-height: 100vh;
+}
+.main-content button {
+  text-align: right;
+  background-color: transparent !important;
+  border-bottom: 1px solid hsl(0deg, 0%, 13%) !important;
+  border-radius: 0 !important;
+}
+
+/* classes *//*# sourceMappingURL=main.css.map */
